@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E8500511F3C0D7E0073C97B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8500501F3C0D7E0073C97B /* AppDelegate.swift */; };
+		7E8500531F3C0D7E0073C97B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E8500521F3C0D7E0073C97B /* GameScene.sks */; };
+		7E8500551F3C0D7E0073C97B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E8500541F3C0D7E0073C97B /* Actions.sks */; };
+		7E8500571F3C0D7E0073C97B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8500561F3C0D7E0073C97B /* GameScene.swift */; };
+		7E8500591F3C0D7E0073C97B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8500581F3C0D7E0073C97B /* GameViewController.swift */; };
+		7E85005C1F3C0D7E0073C97B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E85005A1F3C0D7E0073C97B /* Main.storyboard */; };
+		7E85005E1F3C0D7E0073C97B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E85005D1F3C0D7E0073C97B /* Assets.xcassets */; };
+		7E8500611F3C0D7E0073C97B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E85005F1F3C0D7E0073C97B /* LaunchScreen.storyboard */; };
+		7E85006C1F3C0D7F0073C97B /* Sharks_in_MarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E85006B1F3C0D7F0073C97B /* Sharks_in_MarsTests.swift */; };
+		7E8500771F3C0D7F0073C97B /* Sharks_in_MarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8500761F3C0D7F0073C97B /* Sharks_in_MarsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E8500681F3C0D7F0073C97B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E8500451F3C0D7E0073C97B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E85004C1F3C0D7E0073C97B;
+			remoteInfo = "Sharks in Mars";
+		};
+		7E8500731F3C0D7F0073C97B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E8500451F3C0D7E0073C97B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E85004C1F3C0D7E0073C97B;
+			remoteInfo = "Sharks in Mars";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E85004D1F3C0D7E0073C97B /* Sharks in Mars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sharks in Mars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8500501F3C0D7E0073C97B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E8500521F3C0D7E0073C97B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7E8500541F3C0D7E0073C97B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		7E8500561F3C0D7E0073C97B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7E8500581F3C0D7E0073C97B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7E85005B1F3C0D7E0073C97B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E85005D1F3C0D7E0073C97B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E8500601F3C0D7E0073C97B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E8500621F3C0D7E0073C97B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8500671F3C0D7F0073C97B /* Sharks in MarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sharks in MarsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E85006B1F3C0D7F0073C97B /* Sharks_in_MarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharks_in_MarsTests.swift; sourceTree = "<group>"; };
+		7E85006D1F3C0D7F0073C97B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8500721F3C0D7F0073C97B /* Sharks in MarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sharks in MarsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8500761F3C0D7F0073C97B /* Sharks_in_MarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharks_in_MarsUITests.swift; sourceTree = "<group>"; };
+		7E8500781F3C0D7F0073C97B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E85004A1F3C0D7E0073C97B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8500641F3C0D7F0073C97B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E85006F1F3C0D7F0073C97B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8500441F3C0D7E0073C97B = {
+			isa = PBXGroup;
+			children = (
+				7E85004F1F3C0D7E0073C97B /* Sharks in Mars */,
+				7E85006A1F3C0D7F0073C97B /* Sharks in MarsTests */,
+				7E8500751F3C0D7F0073C97B /* Sharks in MarsUITests */,
+				7E85004E1F3C0D7E0073C97B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E85004E1F3C0D7E0073C97B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E85004D1F3C0D7E0073C97B /* Sharks in Mars.app */,
+				7E8500671F3C0D7F0073C97B /* Sharks in MarsTests.xctest */,
+				7E8500721F3C0D7F0073C97B /* Sharks in MarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E85004F1F3C0D7E0073C97B /* Sharks in Mars */ = {
+			isa = PBXGroup;
+			children = (
+				7E8500501F3C0D7E0073C97B /* AppDelegate.swift */,
+				7E8500521F3C0D7E0073C97B /* GameScene.sks */,
+				7E8500541F3C0D7E0073C97B /* Actions.sks */,
+				7E8500561F3C0D7E0073C97B /* GameScene.swift */,
+				7E8500581F3C0D7E0073C97B /* GameViewController.swift */,
+				7E85005A1F3C0D7E0073C97B /* Main.storyboard */,
+				7E85005D1F3C0D7E0073C97B /* Assets.xcassets */,
+				7E85005F1F3C0D7E0073C97B /* LaunchScreen.storyboard */,
+				7E8500621F3C0D7E0073C97B /* Info.plist */,
+			);
+			path = "Sharks in Mars";
+			sourceTree = "<group>";
+		};
+		7E85006A1F3C0D7F0073C97B /* Sharks in MarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E85006B1F3C0D7F0073C97B /* Sharks_in_MarsTests.swift */,
+				7E85006D1F3C0D7F0073C97B /* Info.plist */,
+			);
+			path = "Sharks in MarsTests";
+			sourceTree = "<group>";
+		};
+		7E8500751F3C0D7F0073C97B /* Sharks in MarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E8500761F3C0D7F0073C97B /* Sharks_in_MarsUITests.swift */,
+				7E8500781F3C0D7F0073C97B /* Info.plist */,
+			);
+			path = "Sharks in MarsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E85004C1F3C0D7E0073C97B /* Sharks in Mars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E85007B1F3C0D7F0073C97B /* Build configuration list for PBXNativeTarget "Sharks in Mars" */;
+			buildPhases = (
+				7E8500491F3C0D7E0073C97B /* Sources */,
+				7E85004A1F3C0D7E0073C97B /* Frameworks */,
+				7E85004B1F3C0D7E0073C97B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sharks in Mars";
+			productName = "Sharks in Mars";
+			productReference = 7E85004D1F3C0D7E0073C97B /* Sharks in Mars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E8500661F3C0D7F0073C97B /* Sharks in MarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E85007E1F3C0D7F0073C97B /* Build configuration list for PBXNativeTarget "Sharks in MarsTests" */;
+			buildPhases = (
+				7E8500631F3C0D7F0073C97B /* Sources */,
+				7E8500641F3C0D7F0073C97B /* Frameworks */,
+				7E8500651F3C0D7F0073C97B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E8500691F3C0D7F0073C97B /* PBXTargetDependency */,
+			);
+			name = "Sharks in MarsTests";
+			productName = "Sharks in MarsTests";
+			productReference = 7E8500671F3C0D7F0073C97B /* Sharks in MarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E8500711F3C0D7F0073C97B /* Sharks in MarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8500811F3C0D7F0073C97B /* Build configuration list for PBXNativeTarget "Sharks in MarsUITests" */;
+			buildPhases = (
+				7E85006E1F3C0D7F0073C97B /* Sources */,
+				7E85006F1F3C0D7F0073C97B /* Frameworks */,
+				7E8500701F3C0D7F0073C97B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E8500741F3C0D7F0073C97B /* PBXTargetDependency */,
+			);
+			name = "Sharks in MarsUITests";
+			productName = "Sharks in MarsUITests";
+			productReference = 7E8500721F3C0D7F0073C97B /* Sharks in MarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E8500451F3C0D7E0073C97B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "alejandro casanas";
+				TargetAttributes = {
+					7E85004C1F3C0D7E0073C97B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5B8N6BYPKF;
+						ProvisioningStyle = Automatic;
+					};
+					7E8500661F3C0D7F0073C97B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5B8N6BYPKF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E85004C1F3C0D7E0073C97B;
+					};
+					7E8500711F3C0D7F0073C97B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5B8N6BYPKF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E85004C1F3C0D7E0073C97B;
+					};
+				};
+			};
+			buildConfigurationList = 7E8500481F3C0D7E0073C97B /* Build configuration list for PBXProject "Sharks in Mars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E8500441F3C0D7E0073C97B;
+			productRefGroup = 7E85004E1F3C0D7E0073C97B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E85004C1F3C0D7E0073C97B /* Sharks in Mars */,
+				7E8500661F3C0D7F0073C97B /* Sharks in MarsTests */,
+				7E8500711F3C0D7F0073C97B /* Sharks in MarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E85004B1F3C0D7E0073C97B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E85005C1F3C0D7E0073C97B /* Main.storyboard in Resources */,
+				7E8500531F3C0D7E0073C97B /* GameScene.sks in Resources */,
+				7E85005E1F3C0D7E0073C97B /* Assets.xcassets in Resources */,
+				7E8500611F3C0D7E0073C97B /* LaunchScreen.storyboard in Resources */,
+				7E8500551F3C0D7E0073C97B /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8500651F3C0D7F0073C97B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8500701F3C0D7F0073C97B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E8500491F3C0D7E0073C97B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8500571F3C0D7E0073C97B /* GameScene.swift in Sources */,
+				7E8500591F3C0D7E0073C97B /* GameViewController.swift in Sources */,
+				7E8500511F3C0D7E0073C97B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8500631F3C0D7F0073C97B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E85006C1F3C0D7F0073C97B /* Sharks_in_MarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E85006E1F3C0D7F0073C97B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8500771F3C0D7F0073C97B /* Sharks_in_MarsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E8500691F3C0D7F0073C97B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E85004C1F3C0D7E0073C97B /* Sharks in Mars */;
+			targetProxy = 7E8500681F3C0D7F0073C97B /* PBXContainerItemProxy */;
+		};
+		7E8500741F3C0D7F0073C97B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E85004C1F3C0D7E0073C97B /* Sharks in Mars */;
+			targetProxy = 7E8500731F3C0D7F0073C97B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E85005A1F3C0D7E0073C97B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E85005B1F3C0D7E0073C97B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E85005F1F3C0D7E0073C97B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E8500601F3C0D7E0073C97B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E8500791F3C0D7F0073C97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E85007A1F3C0D7F0073C97B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E85007C1F3C0D7F0073C97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5B8N6BYPKF;
+				INFOPLIST_FILE = "Sharks in Mars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrocasanas.Sharks-in-Mars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7E85007D1F3C0D7F0073C97B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5B8N6BYPKF;
+				INFOPLIST_FILE = "Sharks in Mars/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrocasanas.Sharks-in-Mars";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7E85007F1F3C0D7F0073C97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5B8N6BYPKF;
+				INFOPLIST_FILE = "Sharks in MarsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrocasanas.Sharks-in-MarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sharks in Mars.app/Sharks in Mars";
+			};
+			name = Debug;
+		};
+		7E8500801F3C0D7F0073C97B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5B8N6BYPKF;
+				INFOPLIST_FILE = "Sharks in MarsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrocasanas.Sharks-in-MarsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sharks in Mars.app/Sharks in Mars";
+			};
+			name = Release;
+		};
+		7E8500821F3C0D7F0073C97B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5B8N6BYPKF;
+				INFOPLIST_FILE = "Sharks in MarsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrocasanas.Sharks-in-MarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sharks in Mars";
+			};
+			name = Debug;
+		};
+		7E8500831F3C0D7F0073C97B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5B8N6BYPKF;
+				INFOPLIST_FILE = "Sharks in MarsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandrocasanas.Sharks-in-MarsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sharks in Mars";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E8500481F3C0D7E0073C97B /* Build configuration list for PBXProject "Sharks in Mars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8500791F3C0D7F0073C97B /* Debug */,
+				7E85007A1F3C0D7F0073C97B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E85007B1F3C0D7F0073C97B /* Build configuration list for PBXNativeTarget "Sharks in Mars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E85007C1F3C0D7F0073C97B /* Debug */,
+				7E85007D1F3C0D7F0073C97B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E85007E1F3C0D7F0073C97B /* Build configuration list for PBXNativeTarget "Sharks in MarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E85007F1F3C0D7F0073C97B /* Debug */,
+				7E8500801F3C0D7F0073C97B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E8500811F3C0D7F0073C97B /* Build configuration list for PBXNativeTarget "Sharks in MarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8500821F3C0D7F0073C97B /* Debug */,
+				7E8500831F3C0D7F0073C97B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E8500451F3C0D7E0073C97B /* Project object */;
+}
