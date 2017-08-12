@@ -17,6 +17,12 @@
 		7E8500611F3C0D7E0073C97B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E85005F1F3C0D7E0073C97B /* LaunchScreen.storyboard */; };
 		7E85006C1F3C0D7F0073C97B /* Sharks_in_MarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E85006B1F3C0D7F0073C97B /* Sharks_in_MarsTests.swift */; };
 		7E8500771F3C0D7F0073C97B /* Sharks_in_MarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8500761F3C0D7F0073C97B /* Sharks_in_MarsUITests.swift */; };
+		7E8500851F3C16900073C97B /* 8-bit-laser.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 7E8500841F3C16900073C97B /* 8-bit-laser.aiff */; };
+		7E8500871F3C18C60073C97B /* bulletSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E8500861F3C18C60073C97B /* bulletSound.wav */; };
+		7E8500891F3C36660073C97B /* explosionSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E8500881F3C36660073C97B /* explosionSound.wav */; };
+		7E85008B1F3D5FCD0073C97B /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E85008A1F3D5FCD0073C97B /* GameOverScene.swift */; };
+		7E85008D1F3EBD2C0073C97B /* BossMain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E85008C1F3EBD2C0073C97B /* BossMain.wav */; };
+		7E8500911F3EE2E10073C97B /* Explosion.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7E8500901F3EE2E10073C97B /* Explosion.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		7E8500721F3C0D7F0073C97B /* Sharks in MarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sharks in MarsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8500761F3C0D7F0073C97B /* Sharks_in_MarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharks_in_MarsUITests.swift; sourceTree = "<group>"; };
 		7E8500781F3C0D7F0073C97B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8500841F3C16900073C97B /* 8-bit-laser.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "8-bit-laser.aiff"; sourceTree = "<group>"; };
+		7E8500861F3C18C60073C97B /* bulletSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bulletSound.wav; sourceTree = "<group>"; };
+		7E8500881F3C36660073C97B /* explosionSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosionSound.wav; sourceTree = "<group>"; };
+		7E85008A1F3D5FCD0073C97B /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		7E85008C1F3EBD2C0073C97B /* BossMain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BossMain.wav; sourceTree = "<group>"; };
+		7E8500901F3EE2E10073C97B /* Explosion.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Explosion.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +115,18 @@
 		7E85004F1F3C0D7E0073C97B /* Sharks in Mars */ = {
 			isa = PBXGroup;
 			children = (
+				7E8500901F3EE2E10073C97B /* Explosion.atlas */,
 				7E8500501F3C0D7E0073C97B /* AppDelegate.swift */,
 				7E8500521F3C0D7E0073C97B /* GameScene.sks */,
+				7E8500861F3C18C60073C97B /* bulletSound.wav */,
 				7E8500541F3C0D7E0073C97B /* Actions.sks */,
+				7E85008C1F3EBD2C0073C97B /* BossMain.wav */,
 				7E8500561F3C0D7E0073C97B /* GameScene.swift */,
+				7E85008A1F3D5FCD0073C97B /* GameOverScene.swift */,
 				7E8500581F3C0D7E0073C97B /* GameViewController.swift */,
 				7E85005A1F3C0D7E0073C97B /* Main.storyboard */,
+				7E8500881F3C36660073C97B /* explosionSound.wav */,
+				7E8500841F3C16900073C97B /* 8-bit-laser.aiff */,
 				7E85005D1F3C0D7E0073C97B /* Assets.xcassets */,
 				7E85005F1F3C0D7E0073C97B /* LaunchScreen.storyboard */,
 				7E8500621F3C0D7E0073C97B /* Info.plist */,
@@ -244,11 +262,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8500891F3C36660073C97B /* explosionSound.wav in Resources */,
+				7E8500871F3C18C60073C97B /* bulletSound.wav in Resources */,
+				7E8500851F3C16900073C97B /* 8-bit-laser.aiff in Resources */,
 				7E85005C1F3C0D7E0073C97B /* Main.storyboard in Resources */,
 				7E8500531F3C0D7E0073C97B /* GameScene.sks in Resources */,
 				7E85005E1F3C0D7E0073C97B /* Assets.xcassets in Resources */,
 				7E8500611F3C0D7E0073C97B /* LaunchScreen.storyboard in Resources */,
+				7E85008D1F3EBD2C0073C97B /* BossMain.wav in Resources */,
 				7E8500551F3C0D7E0073C97B /* Actions.sks in Resources */,
+				7E8500911F3EE2E10073C97B /* Explosion.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +298,7 @@
 			files = (
 				7E8500571F3C0D7E0073C97B /* GameScene.swift in Sources */,
 				7E8500591F3C0D7E0073C97B /* GameViewController.swift in Sources */,
+				7E85008B1F3D5FCD0073C97B /* GameOverScene.swift in Sources */,
 				7E8500511F3C0D7E0073C97B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,10 +455,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5B8N6BYPKF;
 				INFOPLIST_FILE = "Sharks in Mars/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "alejandrocasanas.Sharks-in-Mars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -444,10 +470,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5B8N6BYPKF;
 				INFOPLIST_FILE = "Sharks in Mars/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "alejandrocasanas.Sharks-in-Mars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
