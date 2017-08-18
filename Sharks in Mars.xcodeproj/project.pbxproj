@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E1FAEAE1F467D1000B4055C /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1FAEAD1F467D1000B4055C /* GoogleMobileAds.framework */; };
 		7E8500511F3C0D7E0073C97B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8500501F3C0D7E0073C97B /* AppDelegate.swift */; };
 		7E8500531F3C0D7E0073C97B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E8500521F3C0D7E0073C97B /* GameScene.sks */; };
 		7E8500551F3C0D7E0073C97B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E8500541F3C0D7E0073C97B /* Actions.sks */; };
@@ -23,6 +24,17 @@
 		7E85008B1F3D5FCD0073C97B /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E85008A1F3D5FCD0073C97B /* GameOverScene.swift */; };
 		7E85008D1F3EBD2C0073C97B /* BossMain.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7E85008C1F3EBD2C0073C97B /* BossMain.wav */; };
 		7E8500911F3EE2E10073C97B /* Explosion.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 7E8500901F3EE2E10073C97B /* Explosion.atlas */; };
+		7ED405EC1F46773D00450E98 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405EB1F46773D00450E98 /* EventKit.framework */; };
+		7ED405EE1F46774500450E98 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405ED1F46774500450E98 /* EventKitUI.framework */; };
+		7ED405F01F46774F00450E98 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405EF1F46774F00450E98 /* AVFoundation.framework */; };
+		7ED405F21F46775800450E98 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405F11F46775800450E98 /* AdSupport.framework */; };
+		7ED405F41F46776400450E98 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405F31F46776400450E98 /* AudioToolbox.framework */; };
+		7ED405F61F46777300450E98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405F51F46777300450E98 /* CoreGraphics.framework */; };
+		7ED405F81F46778400450E98 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405F71F46778400450E98 /* CoreTelephony.framework */; };
+		7ED405FA1F46778B00450E98 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405F91F46778B00450E98 /* CoreMedia.framework */; };
+		7ED405FC1F46779300450E98 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405FB1F46779300450E98 /* MessageUI.framework */; };
+		7ED405FE1F46779900450E98 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405FD1F46779900450E98 /* StoreKit.framework */; };
+		7ED406001F46779F00450E98 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED405FF1F46779F00450E98 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E1FAEAD1F467D1000B4055C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		7E85004D1F3C0D7E0073C97B /* Sharks in Mars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sharks in Mars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8500501F3C0D7E0073C97B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E8500521F3C0D7E0073C97B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -65,6 +78,17 @@
 		7E85008A1F3D5FCD0073C97B /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		7E85008C1F3EBD2C0073C97B /* BossMain.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BossMain.wav; sourceTree = "<group>"; };
 		7E8500901F3EE2E10073C97B /* Explosion.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Explosion.atlas; sourceTree = "<group>"; };
+		7ED405EB1F46773D00450E98 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		7ED405ED1F46774500450E98 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		7ED405EF1F46774F00450E98 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7ED405F11F46775800450E98 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		7ED405F31F46776400450E98 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7ED405F51F46777300450E98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7ED405F71F46778400450E98 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7ED405F91F46778B00450E98 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7ED405FB1F46779300450E98 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7ED405FD1F46779900450E98 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7ED405FF1F46779F00450E98 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +96,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E1FAEAE1F467D1000B4055C /* GoogleMobileAds.framework in Frameworks */,
+				7ED406001F46779F00450E98 /* SystemConfiguration.framework in Frameworks */,
+				7ED405FE1F46779900450E98 /* StoreKit.framework in Frameworks */,
+				7ED405FC1F46779300450E98 /* MessageUI.framework in Frameworks */,
+				7ED405FA1F46778B00450E98 /* CoreMedia.framework in Frameworks */,
+				7ED405F81F46778400450E98 /* CoreTelephony.framework in Frameworks */,
+				7ED405F61F46777300450E98 /* CoreGraphics.framework in Frameworks */,
+				7ED405F01F46774F00450E98 /* AVFoundation.framework in Frameworks */,
+				7ED405F41F46776400450E98 /* AudioToolbox.framework in Frameworks */,
+				7ED405F21F46775800450E98 /* AdSupport.framework in Frameworks */,
+				7ED405EE1F46774500450E98 /* EventKitUI.framework in Frameworks */,
+				7ED405EC1F46773D00450E98 /* EventKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +135,7 @@
 				7E85006A1F3C0D7F0073C97B /* Sharks in MarsTests */,
 				7E8500751F3C0D7F0073C97B /* Sharks in MarsUITests */,
 				7E85004E1F3C0D7E0073C97B /* Products */,
+				7ED405E81F46771F00450E98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +187,25 @@
 				7E8500781F3C0D7F0073C97B /* Info.plist */,
 			);
 			path = "Sharks in MarsUITests";
+			sourceTree = "<group>";
+		};
+		7ED405E81F46771F00450E98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E1FAEAD1F467D1000B4055C /* GoogleMobileAds.framework */,
+				7ED405FF1F46779F00450E98 /* SystemConfiguration.framework */,
+				7ED405FD1F46779900450E98 /* StoreKit.framework */,
+				7ED405FB1F46779300450E98 /* MessageUI.framework */,
+				7ED405F91F46778B00450E98 /* CoreMedia.framework */,
+				7ED405F71F46778400450E98 /* CoreTelephony.framework */,
+				7ED405F51F46777300450E98 /* CoreGraphics.framework */,
+				7ED405F31F46776400450E98 /* AudioToolbox.framework */,
+				7ED405F11F46775800450E98 /* AdSupport.framework */,
+				7ED405EF1F46774F00450E98 /* AVFoundation.framework */,
+				7ED405ED1F46774500450E98 /* EventKitUI.framework */,
+				7ED405EB1F46773D00450E98 /* EventKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +276,7 @@
 				TargetAttributes = {
 					7E85004C1F3C0D7E0073C97B = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 5B8N6BYPKF;
+						DevelopmentTeam = AX6GUR4V3T;
 						ProvisioningStyle = Automatic;
 					};
 					7E8500661F3C0D7F0073C97B = {
@@ -452,12 +508,19 @@
 		7E85007C1F3C0D7F0073C97B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5B8N6BYPKF;
+				DEVELOPMENT_TEAM = AX6GUR4V3T;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sharks\\ in\\ Mars",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Sharks in Mars/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "alejandrocasanas.Sharks-in-Mars";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandrocasanas.Sharks-in-Mars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,12 +530,19 @@
 		7E85007D1F3C0D7F0073C97B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5B8N6BYPKF;
+				DEVELOPMENT_TEAM = AX6GUR4V3T;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sharks\\ in\\ Mars",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Sharks in Mars/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "alejandrocasanas.Sharks-in-Mars";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alejandrocasanas.Sharks-in-Mars";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,6 +626,7 @@
 				7E85007D1F3C0D7F0073C97B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E85007E1F3C0D7F0073C97B /* Build configuration list for PBXNativeTarget "Sharks in MarsTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +635,7 @@
 				7E8500801F3C0D7F0073C97B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E8500811F3C0D7F0073C97B /* Build configuration list for PBXNativeTarget "Sharks in MarsUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +644,7 @@
 				7E8500831F3C0D7F0073C97B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

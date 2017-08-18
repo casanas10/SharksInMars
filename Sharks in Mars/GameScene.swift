@@ -8,6 +8,7 @@
 
 import SpriteKit
 import GameplayKit
+import GoogleMobileAds
 
 var gameScore = 0
 

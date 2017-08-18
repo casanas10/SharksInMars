@@ -8,12 +8,17 @@
 
 import Foundation
 import SpriteKit
+import GoogleMobileAds
 
 class GameOverScence: SKScene {
+    
+//    var interstitial: GADInterstitial!
     
     let restartLabel = SKLabelNode(fontNamed: "AmericanTypewriter-Bold")
     
     override func didMove(to view: SKView) {
+        
+//        interstitial = GADInterstitial(adUnitID: "ca-app-pub-3940256099942544/4411468910")
         
         let background = SKSpriteNode(imageNamed: "background")
         background.position = CGPoint(x: self.size.width/2, y: self.size.height/2)

@@ -10,14 +10,30 @@ import UIKit
 import SpriteKit
 import GameplayKit
 import AVFoundation
+import GoogleMobileAds
 
 class GameViewController: UIViewController {
     
     var backingAudio = AVAudioPlayer()
     
+    var googleBannerView: GADBannerView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        googleBannerView = GADBannerView(adSize: kGADAdSizeSmartBannerPortrait)
+        //        googleBannerView.adUnitID = "ca-app-pub-4495197822490037/4973686123"
+        
+        print("Google Mobile Ads SDK version: \(GADRequest.sdkVersion())")
+        googleBannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        self.googleBannerView.rootViewController = self;
+        let request: GADRequest = GADRequest()
+        self.googleBannerView.load(request)
+        
+        googleBannerView.frame = CGRect(x: view.frame.size.width/2 - googleBannerView.frame.size.width/2, y: view.frame.size.height - googleBannerView.frame.size.height, width: googleBannerView.frame.size.width,height: googleBannerView.frame.size.height)
+        
+        self.view.addSubview(googleBannerView)
+
         let filePath = Bundle.main.path(forResource: "BossMain", ofType: "wav")
         let audioURL = URL(fileURLWithPath: filePath!)
         do {
@@ -64,4 +80,5 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
 }
