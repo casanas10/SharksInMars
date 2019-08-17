@@ -1,6 +1,8 @@
 # SharksInMars
 > A simple space invader game combining designed to compete with your friends and compare highest scores. 
 
+![](sharks_in_mars_game.gif)
+
 ## Purpose
 The main purpose of this game was to get familiar with the overall process of designing, implementing, and launching IOS apps. I also wanted to advertise using Google Ads.  
 
