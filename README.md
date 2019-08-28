@@ -1,5 +1,5 @@
 # SharksInMars
-> A simple space invader game combining designed to compete with your friends and compare highest scores. 
+> A simple space invader game designed to compete with your friends and compare highest scores. 
 
 ![](sharks_in_mars_game.gif)
 
